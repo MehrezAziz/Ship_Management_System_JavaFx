@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="880.0" styleClass="bodybg" stylesheets="@CSS/imageSetAdmin.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.zadmin.AdminPages.AdminHome">
+   <children>
+      <VBox alignment="CENTER" layoutX="175.0" layoutY="88.0" prefHeight="156.0" prefWidth="240.0" spacing="8.0" style="-fx-background-color: #262B4110;" AnchorPane.bottomAnchor="126.0" AnchorPane.leftAnchor="175.0" AnchorPane.rightAnchor="225.0" AnchorPane.topAnchor="88.0">
+      <Label layoutX="347.0" layoutY="193.0" text="Hey Admin,">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="245.0" text="Welcome to Our">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="295.0" text="Ship Management System">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="510.0" layoutY="304.0" prefHeight="66.0" prefWidth="121.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <JFXButton graphicTextGap="10.0" layoutX="731.0" layoutY="519.0" onAction="#BackToMain" prefHeight="34.0" prefWidth="94.0" text="Log-Out">
+         <graphic>
+            <FontAwesomeIconView glyphName="SIGN_OUT" size="15" />
+         </graphic>
+      </JFXButton>
+      </VBox>
+   </children>
+</AnchorPane>
